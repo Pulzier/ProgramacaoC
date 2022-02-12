@@ -4,14 +4,14 @@ int main (){
     float peso = 0;
     char nome[32];
     char aniversario[10];
-    printf("digite um idade: ");
+    printf("digite sua idade: ");
     scanf("%d", &idade);
-    printf("digite um peso: ");
+    printf("digite seu peso: ");
     scanf("%f", &peso);
-    printf("digite um aniversario: ");
-    scanf(" %s", &aniversario);
-    printf("digite uma nome: ");
-    scanf(" %[^\n]s", &nome);
+    printf("digite adata do seu aniversario: ");
+    scanf(" %s", aniversario);
+    printf("digite seu nome: ");
+    scanf(" %[^\n]s", nome);
 
 
     printf("idade e: %d\n", idade);

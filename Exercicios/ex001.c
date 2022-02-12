@@ -7,6 +7,6 @@ int main(){
      printf("ler a idade: ");
       scanf("%d", &idade);
      printf("ler o nome: ");
-     scanf("%s", &nome);
+     scanf(" %s", nome);
         
 }

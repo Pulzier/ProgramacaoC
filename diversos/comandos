@@ -1,0 +1,7 @@
+
+{   Comandos do Charmap
+    92  \
+    124 |
+    ls -la
+    grep "palavra"
+}   
