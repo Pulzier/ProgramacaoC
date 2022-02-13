@@ -1,12 +1,20 @@
 #include <stdio.h>
 
-int main(){
+int main()
+{
     char nome[32];
-     int idade = 0;
+    int idade = 0;
 
-     printf("ler a idade: ");
-      scanf("%d", &idade);
-     printf("ler o nome: ");
-     scanf(" %s", nome);
-        
+    printf("ler a idade: ");
+    scanf("%d", &idade);
+    if (idade >= 18)
+    {
+        printf("você é maior de idade\n");
+        printf("ler o nome: ");
+        scanf(" %s", nome);
+    }
+    else
+    {
+        printf("você é menor de idade ;-;\n");
+    }
 }
