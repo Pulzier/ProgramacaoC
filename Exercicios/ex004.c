@@ -17,5 +17,5 @@ int main(){
     //     printf("o ano inserido não é bissexto\n");
     // }
     
-    (ano % 4 == 0 && ano % 100 != 0) || ano % 400 == 0 ? printf("o ano inserido é bissexto\n"):printf("o ano inserido não é bissexto\n");
+    // (ano % 4 == 0 && ano % 100 != 0) || ano % 400 == 0 ? printf("o ano inserido é bissexto\n"):printf("o ano inserido não é bissexto\n");
 }
